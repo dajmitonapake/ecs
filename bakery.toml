@@ -1,0 +1,23 @@
+[project]
+name = "wecs"
+language = "c++"
+version = "1.0.0"
+distribution = "executable"
+sources = [
+    "src/blob_vector.cpp",
+    "src/world.cpp",
+    "src/archetype.cpp",
+    "src/entity.cpp",
+    "src/bundle.cpp",
+    "src/query.cpp",
+    "src/main.cpp",
+
+    "src/ffi/bundle_ffi.cpp",
+    "src/ffi/query_ffi.cpp",
+    "src/ffi/world_ffi.cpp"
+]
+includes = ["src"]
+optimization = "4"
+
+[cpp]
+standard = "23"

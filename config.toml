@@ -1,0 +1,7 @@
+gcc_location = "C:/msys64/ucrt64/bin/gcc.exe"
+gpp_location = "C:/msys64/ucrt64/bin/g++.exe"
+ar_location = "C:/msys64/ucrt64/bin/ar.exe"
+
+# gcc_location = "C:/Program Files/LLVM/bin/clang.exe"
+# gpp_location = "C:/Program Files/LLVM/bin/clang++.exe"
+# ar_location = "C:/Program Files/LLVM/bin/llvm-ar.exe"
